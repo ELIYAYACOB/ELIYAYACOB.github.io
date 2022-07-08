@@ -153,24 +153,24 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 HTMLActuator.prototype.message = function (won) {
   var mytxt=new Array(18);
   
-  mytxt[0]="我就不信有人能死在这里！";
-  mytxt[1]="这一步也不可能有人死！";
-  mytxt[2]="洪丝丝不给你巧克力不帮你牵红线！";
-  mytxt[3]="程若晖在帮别人叠心心哦！~\(≧▽≦)/~";
+  mytxt[0]="I don't believe anyone can die here!";
+  mytxt[1]="No one can die at this step!";
+  mytxt[2]="Hong Sisi won't give you chocolate and won't help you lead the red line!";
+  mytxt[3]="Cheng Ruohui is helping others!~\(≧▽≦)/~";
   mytxt[4]="no zuo no die";
-  mytxt[5]="芳芳的美腿儿离你越来越远╭(╯^╰)╮";
-  mytxt[6]="Wing~你还没有win哦(*^__^*)";
-  mytxt[7]="芳儿芳儿快马加鞭再来一局";
-  mytxt[8]="张美真爱钱钱不爱你！~~~~(>_<)~~~~ ";
-  mytxt[9]="成！天！懒！打游戏不能偷懒呢";
-  mytxt[10]="老婆大人判你重新开始";
-  mytxt[11]="椰菜头姐姐不要走";
-  mytxt[12]="你忍心看着江玉麟女儿身被发现而不去救她？";
-  mytxt[13]="丢颗仙豆，力量加满fighting~";
-  mytxt[14]="从来就只有一个燕红叶！";
-  mytxt[15]="我希望你是永远拥有我家钥匙的吕楞";
-  mytxt[16]="玩到这一步了还不截个图发微博吗？";
-  mytxt[17]="嘿，你把游戏打爆了...";
+  mytxt[5]="Fangfang's beautiful legs are getting farther and farther away from you╭(╯^╰)╮";
+  mytxt[6]="Wing~ You don't have win yet(*^__^*)";
+  mytxt[7]="Fang'er Fang'er has another round";
+  mytxt[8]="Zhang Mei really loves money but not you!~~~~(>_<)~~~~ ";
+  mytxt[9]="Success! God! Lazy! You can't be lazy when playing games";
+  mytxt[10]="My wife sentenced you to start over";
+  mytxt[11]="Sister broccoli head don't go";
+  mytxt[12]="You have the heart to watch Jiang Yulin's daughter be discovered without saving her?";
+  mytxt[13]="Drop a fairy bean, fill up the power fighting~";
+  mytxt[14]="There has always been only one Yan Hongye!";
+  mytxt[15]="I hope you are Lu Leng who will always have the key to my house";
+  mytxt[16]="After playing this step, don't you take a picture and send it to Weibo?";
+  mytxt[17]="Hey, you blow up the game...";
  
   
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
